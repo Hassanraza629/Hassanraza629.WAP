@@ -1,0 +1,9 @@
+
+body {
+	background-color: lavenderblush;
+}
+#pic{
+ border-radius: 100%;
+ width:25%;
+ height:50%;
+}
