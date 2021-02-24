@@ -1,0 +1,63 @@
+
+html
+{
+    margin-right: 10%;
+    margin-left: 10%;
+    background: beige;
+}
+body {
+	    background: white;
+		padding: 5%;
+}
+.Heading2{
+	color: #A4A400;
+    /* text-align: center; */
+    text-decoration: underline;
+    background-color: #F0F0F0;
+    font-family: serif;
+	font-size: 18pt;
+}
+h2{
+	text-align: center;
+	text-decoration: underline;
+    background-color: #F0F0F0;
+    font-family: serif;
+	color: #A4A400;
+	font-size: 22pt;
+}
+p{
+color: #404040;
+    font-size: 11pt;
+    font-family: serif;
+}
+#u{text-decoration: line-through;}
+a{
+color: #A4A400;
+}
+.BoldText{
+font-weight: bold;
+}
+.Comt_Para{
+	background: yellow;
+    margin-left: 5%;
+    font-style: italic;
+    margin-right: 5%;
+}
+
+.Link_P{
+
+    line-height: 5px;
+    text-align: -webkit-right;
+    margin-right: 73%;
+	}
+#paragrapDetail
+{
+    line-height: 3px;
+}
+.cr{
+font-family: monospace;
+	}
+/*h1,h3{
+color :lightblue;
+}*/
+
