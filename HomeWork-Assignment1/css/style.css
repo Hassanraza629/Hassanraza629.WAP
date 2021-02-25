@@ -5,8 +5,9 @@ html
     margin-left: 10%;
     background: beige;
 }
-body {
+body { 
 	    background: white;
+		    background-image: url(silverware.JPG);
 		padding: 5%;
 }
 .Heading2{

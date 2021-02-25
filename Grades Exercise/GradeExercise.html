@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title >Retrieve Grade</title>
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body >
+	
+<h1>Retrieve your grade</h1>
+
+<form action="http://mumstudents.org/params.php">
+  <label>Name:</label><br>
+  <input type="text" id="St_name" name ="name" required><br>
+  <label>Student ID:</label><br>
+  <input type="text" id="ID" name ="id" required><br><br>
+  <label>Chose Assignment:</label>
+  
+  <select name="Assignment" id="Assignment"  required>
+    <option value="Home Page">Home Page</option>
+    <option value="About Me">Aboub Me</option>
+    <option value="Recipe">Recipe</option>
+    <option value="Movie Menu">Movie Menu</option>
+  </select>
+ <br><br>
+  <label>Entery:</label><br><br>
+  <input type="radio" id="Nov" name ="Entery" value="Nov 2021" >
+  <label>Nov 2021:</label>
+  <input type="radio" id="Aug" name ="Entery" value="Aug 2021">
+  <label>Aug 2021:</label><br><br>
+  
+  <input type="checkbox" id="Confirm" value="Confirmation" required>
+  <label>Are you sure you wanna look your Grade?</label>
+  <br><br>
+  <input type="submit" value="Get Grade!">
+</form> 
+
+</body>
+
+<br><br><br>
+<p id="validator">
+<a href="https://validator.w3.org/check?uri=referer" onclick="this.href='http://validator.w3.org/check?uri=' + document.URL"><img src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+<a href="https://jigsaw.w3.org/css-validator/check/referer">
+               <img src="https://jigsaw.w3.org/css-validator/images/vcss"  alt="Valid CSS!" /></a>
+			   </p>
+</body>
+</html>

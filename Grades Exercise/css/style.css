@@ -1,0 +1,14 @@
+
+html
+{
+  margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 1%;
+    background: beige;
+}
+body { 
+border-radius: 5%;
+	    background: white;
+		    background-image: url(silverware.JPG);
+		padding: 10% 5% 10% 20%;
+}
