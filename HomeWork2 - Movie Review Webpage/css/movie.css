@@ -4,12 +4,13 @@
 		/*padding: 5%;*/
 }
 #headerImage{
+
 margin-left: 20%;
 }
 #img
 {
    margin-left: 2%;
- 
+ vertical-align: middle;
 }
 #Movie_name{
     text-align: center;
@@ -51,7 +52,7 @@ border-top-right-radius: 17px;
 }
 #page_Continer{
 width: 800px;
-height: 1193px;
+height: 1191px;
     margin-left: 20%;
     border: a 4px gray solid;
     border-radius: 20px;
@@ -72,7 +73,7 @@ width: 550px;
 #footer
 {
     text-align: center;
-    margin-top: -32px;
+    margin-top: -34px;
     background-color:#A2B964;
     width: 792px;
     padding: 5px;
@@ -84,25 +85,32 @@ width: 550px;
     width: 250px;
     position: relative;
     left: 550px;
-    top: -967px;
+    top: -648px;
     background-color: #A2B964;
+}
+#mainPage
+{
+    padding: 6px
+}
+.h{
+font-size: 10px;
 }
 .col-2
 {
-	position: relative;
-    left: 272px;
-	border: 2px gray solid;
-	padding: 5px;
+    border: 2px gray solid;
+    padding: 5px;
     border-radius: 10px;
     width: 45%;
     background-color: #E8DC9B;
     font-size: 8pt;
+    margin-left: 272px;
 }
+
 .col-1
 {
+	float: left;
 	margin-left: 1%;
-    margin-top: 1%;
-	border: 2px gray solid;
+ 	border: 2px gray solid;
 	padding: 5px;
     border-radius: 10px;
     width: 45%;
@@ -110,76 +118,71 @@ width: 550px;
     font-size: 8pt;
 }
 #col-2{
+/*
 position: relative;
     top: -115px;
-    left: 277px;
+    left: 277px;*/
 }
 #r2-c1{
-margin-top: -100px;
-    margin-left: 5px;
+margin-left: 5px;
+width: 47%;
 }
 #r2-c2
 {
 margin-left: 280px;
-    margin-top: -70px;
+margin-top: -50px;
+ 
 }
 #r4-c2{
 margin-left: 280px;
-    margin-top: -45px
+margin-top: -15px;
 }
 #r4-c1{
-    margin-top: -90px;
     margin-left: 5px;
+	
+width: 47%;
 }
 #r3-c2
 {
-position: relative;
-    top: -85px;
-    left: 277px;
+margin-top: 15px;
 }
 #r5-c2
-{margin-top: -72px;
+{
 }
 #r7-c1
 {
-margin-top: -95px;
+    margin-top: 8px;
 }
 #r8-c1{
     margin-left: 5px;
+	width: 47%;
 }
 #r8-c2{
-   margin-top: -78px;
+      margin-top: -35px;
     margin-left: 277px;
 
 }
 #r10-c1{
-    margin-left: 5px;
-	margin-top: -70px;
+margin-left: 5px;
+    width: 47%;
 }
 #r10-c2{
-   margin-top: -70px;
+margin-top: -30px;
     margin-left: 277px;
 
 }
-#r9-c1{
-position: relative;
-    top: -73px;
-    left: 277px;
-}
-#r3-c2
-{
-position: relative;
-    top: -85px;
-    left: 277px;
-}
+
 #r6-c1{
-margin-top: -10px;
     margin-left: 5px;
 }
 #r6-c2{
-margin-top: -50px;
+margin-top: -25px;
     margin-left: 277px;
 }
 /*#header_image{
     background-color: green;
 }*/
+.f_icon
+{
+float: left;
+}
