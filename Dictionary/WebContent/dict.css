@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 15px 95pt;
+    width: 800pt;
+   
+    background-color: gainsboro;
+ 
+}
+h1 , #form {
+	    text-align: center;
+}
+#footer{
+	margin: 10px;
+	text-align: center;
+}
+#body
+{
+	border: 3px solid white;
+    background-color: gainsboro;
+    border-radius: 10px;
+    background-color: lavender;
+}
+#result
+{
+	text-align: left;
+    font-size: 14px;
+    font-family: monospace;
+}
